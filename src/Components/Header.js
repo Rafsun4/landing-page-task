@@ -11,7 +11,7 @@ const Header = () => {
                     <h1>Join <br />The Biggest Afletes <br />On The Web.</h1>
                     <h4 className="pt-2">Your Workouts, Your Customers, Your Brand.</h4>
                     <p className="description">AFLETE is a fitness app exclusively used by influencers to show their fitness content.</p>
-                    <button className="btn btn-danger">Download Now</button>
+                    <a href="https://aflete.com/"><button className="btn btn-danger">Download Now</button></a>
                 </div>
                 <div className="col-md-6 col-sm-6 pb-5 mb-5 d-flex justify-content-center">
                     <img className="img-fluid pt-3 pl-3 w-75 floating" src={phone} alt=""/>

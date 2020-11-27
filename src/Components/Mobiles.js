@@ -12,10 +12,10 @@ const Mobiles = () => {
                 With over a million downloads, 100 + featured Afletes in more than 10 countries and a 4.7 REVIEW on the app store, you can rest assured your guides will have a reliable home.</h6>
                 <ul className="list-unstyled list-inline pt-2">
                     <li className="list-inline-item pb-1">
-                        <a href="#"><img src={google} height="60px" alt="" /></a>
+                        <a href="https://apps.apple.com/us/app/aflete/id1144968481#?platform=iphone"><img src={google} height="60px" alt="" /></a>
                     </li>
                     <li className="list-inline-item">
-                        <a href="#"><img src={apple} height="60px" alt="" /></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.aflete.afleteapp&hl=en&gl=US"><img src={apple} height="60px" alt="" /></a>
                     </li>
                 </ul>
             </div>
