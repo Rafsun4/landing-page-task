@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 
 body {
-  background-color: #142d3b;
+  background-image: linear-gradient(-225deg, #12617E 0%, #08233C 100%);
   color: whitesmoke;
 }
 
