@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+body {
+  background-color: #142d3b;
+  color: whitesmoke;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+font-family: 'Arvo', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.floating {   
+    animation-name: floating; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+    margin-left: 30px; 
+    margin-top: 5px; 
+} 
+
+ 
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
+
+.image-container {
+  position: relative;
+  height: 380px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image-container img{
+  max-width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.description {
+  color: #9a9a9a;
+  font-weight: 300;
+  margin-top: 35px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+    font-weight: 700;
+    padding-top: 30px;
+    color: white;
+}
+
+.imagesCard {
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.img-hover {
+  transition: 0.3s;
+}
+
+.img-hover:hover{
+  transform: translate(0, -30px);
+}
+
+.contact-input{
+    max-width: 600px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card{
+  box-shadow: 10px 10px 40px gray;
+  color: #142d3b;
+  border: none;
+}
+
+.card-body {
+  background-color: #142d3b;
 }
